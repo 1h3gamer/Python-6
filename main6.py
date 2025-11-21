@@ -45,11 +45,11 @@ def pick():
     if guess == number:
         print("Good job! You have guessed it right!")
     if guess != number:
-        print("Nope! The number that I was thinking of was" + str(number))
+        print("Nope! The number that I was thinking of was " + str(number))
 
 playagain = "yes"
 while playagain=="yes" or playagain=="Y" or playagain=="Yes":
     intro()
     pick()
-    print("Do you want to play again")
+    print("Do you want to play again?")
     playagain = input()
