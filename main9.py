@@ -1,14 +1,14 @@
-class Parrot:
-    species = "bird"
-    def __init__(self,name,age):
-        self.name = name
-        self.age = age
+class Shepherd:
+    species = "dog"
+    def __init__(self,breed,colour):
+        self.breed = breed
+        self.colour = colour
 
-blu = Parrot("Blu",10)
-woo = Parrot("Woo",15)
+blu = Shepherd("German","red")
+woo = Shepherd("Australian","green")
 
 print("Blu is a {}".format(blu.species))
 print("Woo is a {}".format(woo.species))
 
-print("{} is {} years old".format(blu.name,blu.age))
-print("{} is {} years old".format(woo.name,woo.age))
+print("Blu is a {} {} and is {} ".format(blu.breed,blu.species,blu.colour))
+print("Woo is an {} {} is {} ".format(woo.breed,woo.species,woo.colour))
